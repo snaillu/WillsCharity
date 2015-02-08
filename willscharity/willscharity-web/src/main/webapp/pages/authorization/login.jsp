@@ -1,11 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>伟氏救助-以领养代替购买</title>
+<title>Insert title here</title>
 </head>
 <body>
-<jsp:include page="/pages/templates/head.jsp"></jsp:include>
+
 </body>
 </html>

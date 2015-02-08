@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+.content{width:750px;margin:0 auto;}
+.nav{width:750px !important;}
+.search{display:none !important;}
+#join{display:none;}
+.join-wrapper{padding-top:40px;}
+.join-head h1{margin-top: 0;margin-bottom: 0;font-size: 45px;font-weight: normal;letter-spacing: -1px;}
+.join-head .target{margin-top: 5px;margin-bottom: 0;font-size: 21px;font-weight: 300;color:#555;}
+.createinfo{margin:30px auto 0;padding: 0;overflow: hidden;list-style: none;
+border: 1px solid #555;border-radius: 3px;box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+color:#555;padding:10px 15px;}
+.account{background:url(../images/user.png) no-repeat;height:32px;line-height:32px;padding-left:40px;}
+.join-main{float:left;width:450px;}
+.join-main .form{margin:15px 0;}
+.form dt{margin:0 0 6px;}
+.form dd{margin-left:0;}
+.form input{height:40px;font-size:15px !important;width:100%;}
+.form label{font-size: 15px;}
+.join-split{border-bottom:1px solid #555;}
+.form-actions input{height:34px;float:left;width:120px;float:right;}
+.join-sec{width:255px;height:255px;float:right;background:url(../images/dog.png) no-repeat;margin-top:60px;}

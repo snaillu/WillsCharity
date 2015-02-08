@@ -12,12 +12,11 @@ public class UserController {
 	@Autowired
 	private IUserService userService;
 	
-	@RequestMapping("/queryuser")
+	private String baesUrl ="/pages/authorization";
+	
 	public ModelAndView queryAllUser(){
-		System.out.println("queryAllUser controller");
 		userService.queryAllUser();
-		ModelAndView view = new ModelAndView("index");
-        view.addObject("welcome", "hello");
+		ModelAndView view = new ModelAndView(baesUrl+"/register");
         return view;
 	}
 }
