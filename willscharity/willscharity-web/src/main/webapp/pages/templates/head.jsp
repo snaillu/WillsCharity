@@ -5,6 +5,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="<c:url value="/images/wei.ico"/>">
 <link rel="stylesheet" type="text/css" href="<c:url value="/css/common.css"/>" >
 <script type="text/javascript" src="<c:url value="/js/jquery-1.11.2.js" />"></script>
+<script type="text/javascript" src="<c:url value="/js/core.js" />"></script>
 <div id="header">
 	<div class="nav clearfix">
 		<div class="logo">偉氏救助</div>

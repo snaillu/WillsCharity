@@ -1,16 +1,25 @@
 package com.snail.charity.controller;
 
+import net.sf.json.JSONObject;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.snail.charity.vo.UserVo;
 
 @Controller
-@RequestMapping("/test")
 public class TestController {
-	@RequestMapping
-    public ModelAndView index() {
-        ModelAndView view = new ModelAndView("index");
-        view.addObject("welcome", "hello");
-        return view;
+	@RequestMapping("/test")
+    public @ResponseBody String index() {
+        UserVo user = new UserVo();
+        
+        user.setName("snail");
+        user.setAge(26);
+        user.setEmail("luqu@live.cn");
+        String str = JSONObject.fromObject(user).toString();
+        System.out.println("str="+str);
+        
+        return str;
     }
 }

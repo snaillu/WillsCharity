@@ -44,6 +44,15 @@
 		<div class="join-sec"></div>
 	</div>
 </div>
-
+<script type="text/javascript">
+	$(document).ready(function(){
+	  var params = {
+			  url:"<c:url value='/test'/>"
+	  };
+	  Base.ajax(params,function(msg){
+		  alert("name:"+msg.name);
+	  });
+	});
+</script>
 </body>
 </html>
